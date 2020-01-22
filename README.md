@@ -22,8 +22,15 @@ Press play on the processing window to run. It will likely hang for a moment, th
 
 Note that there are a great many path tiles and they tend to be non-sensical. One way to improve this behavior would be to reduce the frequency of tiles or add some exclusion rules so that they cannot be right next to one another.
 ## Unity
-Install Unity and import one of the following packages (Simple-Tiled or Overlapping) 
+All of this work was done using the [WFC for Unity by SelfSame](https://selfsame.itch.io/unitywfc)
 
+Install Unity and import one of the following packages (Simple-Tiled or Overlapping) 
+All of the Ultima tiles and sprites are available in the Resources folder in Assets.
+If you install both the Simple Tiled and Overlapping packages the assets for Simple Tiled are in the Simple Tiled folder and the Overlapping is in the main resources folder.
+Map environment prefabs (grass, bridges, rivers, trees, mountains, etc.) are in the top level of the resources folder.
+Prefabs of Buildings, dungeons, statues, signs, etc., are in the Decorations subfolder. 
+The original PNG images are in the folders "z Original sprites" and "Scenery".
+Note that only Prefabs can be added to the tile painter 
 ### Simple Tiled
 Simple Tiled will produce an image based on the sample tile-set to the left. In order to 
 
