@@ -46,14 +46,32 @@ The tiles are painted using a palette of tiles.
 
 Click on the object called "Canvas Small" and follow the directions in the Tile Painter Script
 
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example2.png)
+
 Once you are happy about your canvas, click the compile and record neighbors buttons in the tiles object under "Canvas Small"
+
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example3.png)
 
 Exit and restart, and the tiles file in Assets will have changed. 
 
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example4.png)
+
 Now, click on Small World Test, and drag the tiles file into the xml box in the inspector.
+
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example5.png)
 
 Click generate, then run and you should start creating some new combinations!
 
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example6.png)
+
 If you want to change the settings, go into the tiles xml file and mess with the weights to change what objects tend to appear in the output.
+
+![alt text](https://github.com/lee3206/WFC-202/blob/master/tiled-unity-example7.png)
+
+If you want the output to match the sample picture, try altering the weights such that grass is boosted to 2, while other objects that should be "rare" such as bridges are reduced to .25. Play around with different patterns of weights to find something that looks appealing.
+
+Here are some examples of sample outputs. You can increase the size of the output in the "small world test" object
+![alt text](https://github.com/lee3206/WFC-202/blob/master/SmallTile-1.png)
+![alt text](https://github.com/lee3206/WFC-202/blob/master/LargeTile-2.png)
 
 ### Overlapping
