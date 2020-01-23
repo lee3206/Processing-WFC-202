@@ -12,7 +12,7 @@ def setup():
     
     global W, A, H, tiles
     
-    path = File("C:\Users\Lee32\Documents\Processing\Ultima_Tiles\Tiles").listFiles()
+    path = File("C:\Users\You\Navigate\To\Ultima_Tiles\Tiles").listFiles()
     #path = File("\Tiles").listFiles()
     #path = File(sketchPath() + "/Tiles").listFiles()
     connectors = [
