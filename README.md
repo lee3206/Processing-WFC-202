@@ -70,7 +70,7 @@ If you want to change the settings, go into the tiles xml file and mess with the
 
 If you want the output to match the sample picture, try altering the weights such that grass is boosted to 2, while other objects that should be "rare" such as bridges are reduced to .25. Play around with different patterns of weights to find something that looks appealing.
 
-Here are some examples of sample outputs. You can increase the size of the output in the "small world test" object
+Here are some examples of sample outputs. You can increase the size of the output in the "small world test" object, although increasing the size makes it more difficult to complete. Larger outputs tend to fail more.
 ![alt text](https://github.com/lee3206/WFC-202/blob/master/Pictures/SmallTile-1.png)
 ![alt text](https://github.com/lee3206/WFC-202/blob/master/Pictures/LargeTile-2.png)
 
