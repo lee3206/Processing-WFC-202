@@ -1,5 +1,13 @@
 # WFC-202
 
+## Team
+Lee Taber
+
+Kevin Weatherwax
+
+Sean Fernandes
+
+
 ## Processing
 Install [Processing](https://processing.org/) and make sure to install the Python package for processing.
 Navigate to the Ultima Tiles sketch and open it through processing.
